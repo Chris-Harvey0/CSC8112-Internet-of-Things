@@ -1,0 +1,22 @@
+version: "3"
+services:
+  mqtt-broker:
+    image: mqtt
+    ports:
+      - 1883:1883
+    networks:
+      - mqtt-bridge
+
+  data-injector:
+    image: data-injector
+    networks:
+      - mqtt-bridge
+
+  data-subscriber:
+    image: data-subscriber
+    networks:
+      - mqtt-bridge
+
+networks:
+  mqtt-bridge:
+    driver: bridge

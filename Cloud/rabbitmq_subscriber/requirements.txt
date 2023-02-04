@@ -1,0 +1,5 @@
+setuptools
+matplotlib
+pika
+prophet
+datetime
