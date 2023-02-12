@@ -21,3 +21,9 @@ The final part of task two was to send this data to a RabbitMQ message broker.
 ## Task 3
 The first part of this task was to subscribe to data from the RabbitMQ message broker.
 This data was then used to produce a graph and a machine learning engine was used to predict future values of this sensor and then produce a graph of this data.
+## Reflection
+This project allowed me to gain a better understanding of how IoT devices work.
+Through the development of an IoT pipeline for this project I used two different popular message queueing methods.
+I managed to implement both of these well and didn't have any message losses in the finished program.
+For future work I would attempt to test this pipeline further to find out how robust it really is.
+This would allow me to assess whether it would be capable of coping with a real-world workload.
